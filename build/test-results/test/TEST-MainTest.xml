@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-10-11T15:04:53" hostname="TENDEN" time="0.016">
+  <properties/>
+  <testcase name="isDividedBy4ButNot100()" classname="MainTest" time="0.013"/>
+  <testcase name="isNotDividedBy4()" classname="MainTest" time="0.001"/>
+  <testcase name="IsDividedBy100ButNot400()" classname="MainTest" time="0.0"/>
+  <testcase name="isNotDividedBy400()" classname="MainTest" time="0.0"/>
+  <system-out><![CDATA[This year is divided by 4 and not 100
+This year is divided by 400
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
