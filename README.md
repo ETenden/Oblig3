@@ -6,7 +6,7 @@ da jeg kjørte den første git commit'en fikk jeg error meldinger pga en skrivef
 
 Neste error jeg fikk var exit code 126. dette oppstår når gradlew filen ikke har tilgang til git repository og ikke er executable.
 Her måtte jeg skrive inn kommandoene:
-  git update-index --chmod=+x gradlew
+  '''git update-index --chmod=+x gradlew'''
 Og la til en beskrivelse av hva jeg har gjort.
   git commit -m "Make gradlew executable"
   
