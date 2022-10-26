@@ -6,16 +6,16 @@ da jeg kjørte den første git commit'en fikk jeg error meldinger pga en skrivef
 
 Neste error jeg fikk var exit code 126. dette oppstår når gradlew filen ikke har tilgang til git repository og ikke er executable.
 Her måtte jeg skrive inn kommandoene:
-  '''git update-index --chmod=+x gradlew'''
+  ''' git update-index --chmod=+x gradlew '''
 Og la til en beskrivelse av hva jeg har gjort.
-  git commit -m "Make gradlew executable"
+  ''' git commit -m "Make gradlew executable" '''
   
 Da dette var gjort fikk jeg godkjente tester og github var fornøyd med filene mine. 
 
 Som oppgaven ba om la jeg til:
-  testLogging {
+  ''' testLogging {
     events "passed", "skipped", "failed", "standardOut", "standardError"
-}
+} '''
 for å se at testene kjøres på github også.
 
 Det siste jeg gjorde var å gjøre en bevisst feil slik at jeg kunne se om GitHub reagerte på det. noe det gjorde. Deretter endra jeg tilbake for å fikse det og at alle testene kjørtes riktig.
