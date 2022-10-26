@@ -6,7 +6,7 @@ public class MainTest {
 
     @Test
     public void isDividedBy4ButNot100(){
-        assertTrue(Main.isLeapYear(1890));
+        assertTrue(Main.isLeapYear(1880));
     }
 
     @Test
