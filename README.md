@@ -1,4 +1,5 @@
 # Oblig3
+
 Det første jeg gjorde var å endre fra intellij til VScode for å enklere kunne snakke med GitHub.
 Deretter lastet jeg ned git setup slik at jeg kan kjøre git komandoer i terminalen på VSC. 
 
