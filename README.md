@@ -15,8 +15,9 @@ Da dette var gjort fikk jeg godkjente tester og github var fornøyd med filene m
 
 Som oppgaven ba om la jeg til:
   ``` testLogging {
-    events "passed", "skipped", "failed", "standardOut", "standardError"
-} ``` 
+      events "passed", "skipped", "failed", "standardOut", "standardError"
+} 
+``` 
 
 
 for å se at testene kjøres på github også.
