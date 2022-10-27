@@ -14,7 +14,8 @@ Og la til en beskrivelse av hva jeg har gjort.
 Da dette var gjort fikk jeg godkjente tester og github var fornøyd med filene mine. 
 
 Som oppgaven ba om la jeg til:
-  ``` testLogging {
+  ``` 
+  testLogging {
       events "passed", "skipped", "failed", "standardOut", "standardError"
 } 
 ``` 
